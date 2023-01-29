@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommissioningManager", "CommissioningManager\CommissioningManager.csproj", "{AB16CF2C-B614-4923-92AB-3C5CCB3AD242}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{47BC2586-77D0-4FB7-BE00-266DD2971FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB16CF2C-B614-4923-92AB-3C5CCB3AD242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB16CF2C-B614-4923-92AB-3C5CCB3AD242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB16CF2C-B614-4923-92AB-3C5CCB3AD242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB16CF2C-B614-4923-92AB-3C5CCB3AD242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47BC2586-77D0-4FB7-BE00-266DD2971FCF}.Debug|Any CPU.ActiveCfg = Debug
+		{47BC2586-77D0-4FB7-BE00-266DD2971FCF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ziutvs.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CommissioningManager\\CommissioningManager.csproj
+		SccProjectName1 = CommissioningManager
+		SccLocalPath1 = CommissioningManager
+		SccProjectUniqueName2 = Setup\\Setup.vdproj
+		SccProjectName2 = Setup
+		SccLocalPath2 = Setup
+	EndGlobalSection
+EndGlobal
