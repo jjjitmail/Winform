@@ -8,3 +8,14 @@ You can also reuse those components easily in ASP.NET, Webform/MVC, or evens int
 
 Technical design (UML): CommissioningManager/TD diagram (UML notation).pdf
 Functional design (FlowChart): CommissioningManager/Flowchart.pdf
+
+
+What is this program about?
+It happens often that the data which are delivered by your business partners, doesn’t meet the requirements. Standard solution, e.g XSD is not the solution for the specific problem, as it validates only data type and value, but we need to validate dynamic data value which depends on other dynamic data value.  A specific validation process is therefore needed. That’s why this program comes into the play.
+This program process the input data (MS Access, icf and json) and can be extended easily.
+There are three classes with related Models which represents each input data type with related custom attributes and action logic which are being processed centrally based on its type.
+Each Model contains its custom data conversion logic.
+When an user selects certain input data file in Dashboard. The related Models will convert its input data and map the results into the Dashboard (Grid).
+When an user validates the results in the Dashboard, the ModelValidator will be called and validate the data based on the selected type and its custom attributes which are defined in its Model. The values of all custom attributes of each data will be evaluated in the ModelValidator. If there is one or more errors in the grid cells, the related cell will be highlighted. The user can correct the cell value manually, ModelValidator will validate the update cell value automatically. 
+If the ModelValidator cannot find any error, user can save the input data into database.
+
