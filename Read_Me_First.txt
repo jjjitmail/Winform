@@ -5,3 +5,6 @@ This project illustrates the advanced/generic approach of C# programming.
 You can also see how those generic "Converter" and "Compare" classes/components were made in details, which are currently being used in XAML/WPF/MAUI. 
 You can also reuse those components easily in ASP.NET, Webform/MVC, or evens integrate with Javascript framework. (Angular, ReactJs, etc)
 (Microsoft might not developed those components in the similar way, but surely in the similar direction)
+
+UML design: CommissioningManager/TD diagram (UML notation).pdf
+FlowChart: CommissioningManager/Flowchart.pdf
