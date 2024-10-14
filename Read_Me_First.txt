@@ -23,7 +23,7 @@ Technical Aspects
 Technical design (UML): CommissioningManager/TD diagram (UML notation).pdf
 
 This program demonstrates following design pattern/technologies: C#, SOLID, multi-threading(Asyn), Generic Delegates, Singleton, MVC, EF, .NET 4.5 and Winform. 
-This a small C# project which I created many years ago, some of the functionalities/classes might be a little outdated now 
+This is a small C# project which I created many years ago, some of the functionalities/classes might be a little outdated now 
 and they could be better replaced by new features of latest C# version, 
 but during the time this project was created, the older C# version (especially Winform) had limited features. 
 This project illustrates the advanced/generic approach of C# programming. 
