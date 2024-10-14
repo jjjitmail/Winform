@@ -1,4 +1,4 @@
-Functional Aspects
+>>>>>>Functional Aspects
 Functional design (FlowChart): CommissioningManager/Flowchart.pdf
 
 What is this program about?
@@ -19,7 +19,7 @@ If the ModelValidator cannot find any error, user can save the input data into d
 
 
 
-Technical Aspects
+>>>>>>Technical Aspects
 Technical design (UML): CommissioningManager/TD diagram (UML notation).pdf
 
 This program demonstrates following design patterns/principles/technologies: C#, SOLID, multi-threading(Asyn), Generic Delegates, Singleton, MVC, EF, .NET 4.5 and Winform. 
